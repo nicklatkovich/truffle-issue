@@ -1,0 +1,14 @@
+{
+  "name": "truffle-issue",
+  "version": "0.1.0",
+  "author": "NickLatkovich",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rm -rf ./build && truffle compile",
+    "migrate": "yarn compile && truffle migrate",
+    "migrate:force": "truffle migrate"
+  },
+  "dependencies": {
+    "truffle": "^5.1.51"
+  }
+}
